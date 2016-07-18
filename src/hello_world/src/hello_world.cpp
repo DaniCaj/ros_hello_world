@@ -9,7 +9,7 @@ int main(int argc, char** argv) {
   	ros::NodeHandle nh;
 
 	// broadcast a simple log message
-	ROS_INFO_STREAM("Hello World!");
+	ROS_INFO("Hello World!");
 
 	// enters a loop and waits for callbacks, until receiving a SIGINT (ctrl-c)
 	ros::spin();

@@ -1,0 +1,9 @@
+<launch>
+
+    <!-- Turtlesim Node-->
+    <node pkg="turtlesim" type="turtlesim_node" name="" output="screen" />
+
+    <!-- Turlesim Random Walk Node -->
+    <node pkg="turtlesim_random_walk" type="turtlesim_random_walk_node" name="" output="screen" />
+
+</launch>
